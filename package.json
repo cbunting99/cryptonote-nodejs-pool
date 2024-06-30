@@ -13,8 +13,8 @@
 		"bignum": "*",
 		"bufferutil": "*",
 		"cli-color": "*",
-		"cryptoforknote-util": "git+https://github.com/cbunting99/node-cryptoforknote-util.git",
-		"cryptonight-hashing": "git+https://github.com/cbunting99/node-cryptonight-hashing.git",
+		"cryptoforknote-util": "https://github.com/cbunting99/node-cryptoforknote-util.git",
+		"cryptonight-hashing": "https://github.com/cbunting99/node-cryptonight-hashing.git",
 		"dateformat": "^4.5.1",
 		"domexception": "*",
 		"mailgun.js": "*",
@@ -24,6 +24,7 @@
 		"redis": "^2.8.0",
 		"socket.io": "^3.1.1",
 		"time-ago": "*",
+		"turtlecoin-multi-hashing": "https://github.com/cbunting99/node8-multi-hashing.git"
 		"utf-8-validate": "*"
 	},
 	"engines": {
