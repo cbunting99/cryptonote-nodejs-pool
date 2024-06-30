@@ -325,11 +325,10 @@ currentPage = {
         var cnAlgorithm = lastStats.config.cnAlgorithm || "cryptonight";
         var cnVariant = lastStats.config.cnVariant || 0;
 
-        algorithm = 'Argon2Id Chukwa';
-        xmrstakAlgo = 'chukwa';
-        xmrigAlgo = 'chukwa';
+        algorithm = '';
+        xmrstakAlgo = '';
+        xmrigAlgo = '';
 
-/*
         if (cnAlgorithm == "argon2") {
             if (cnVariant === 1)
                 algorithm = 'Argon2id WRKZ';
@@ -427,14 +426,12 @@ currentPage = {
             }
         }
 
-*/
-
         updateText('cnAlgorithm', algorithm);
         updateText('xmrstakAlgo', xmrstakAlgo);
-//        updateText('xmrigAlgoCPU', xmrigAlgo);
-//        updateText('xmrigAlgoAMD', xmrigAlgo);
-//        updateText('xmrigAlgoNVIDIA', xmrigAlgo);
-//        updateText('xmrigAlgoCC', xmrigAlgo);
+        updateText('xmrigAlgoCPU', xmrigAlgo);
+        updateText('xmrigAlgoAMD', xmrigAlgo);
+        updateText('xmrigAlgoNVIDIA', xmrigAlgo);
+        updateText('xmrigAlgoCC', xmrigAlgo);
     }
 };
 
