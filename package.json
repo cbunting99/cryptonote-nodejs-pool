@@ -24,7 +24,6 @@
 		"redis": "^2.8.0",
 		"socket.io": "^3.1.1",
 		"time-ago": "*",
-		"turtlecoin-crypto": "git+https://github.com/cbunting99/turtlecoin-crypto.git",
 		"utf-8-validate": "*"
 	},
 	"engines": {
